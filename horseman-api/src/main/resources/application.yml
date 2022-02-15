@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: db, core
+  messages:
+    encoding: UTF-8
+
+server:
+  port: 9082
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework: ERROR
+    org.mybatis: ERROR
+    org.horseman.api: DEBUG
+    org.registerCompany: ERROR
+
+#swagger:
+#  production: false
