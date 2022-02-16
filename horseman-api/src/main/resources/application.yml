@@ -14,6 +14,8 @@ logging:
     org.mybatis: ERROR
     org.horseman.api: DEBUG
     org.registerCompany: ERROR
+#  file:
+#    path:
 
 #swagger:
 #  production: false
